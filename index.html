@@ -37,6 +37,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/enterprise.css" />
     <script defer src="assets/js/main.js"></script>
     <script type="application/ld+json">
       {
@@ -92,7 +93,8 @@
         ]
       }
     </script>
-  </head>
+    <link rel="stylesheet" href="assets/css/fixes.css">
+</head>
   <body>
     <a class="skip-link" href="#main">پرش به محتوای اصلی</a>
     <header class="site-header" data-header>
@@ -112,7 +114,7 @@
             <span aria-hidden="true"><i></i><i></i><i></i></span><span class="sr-only">باز کردن منو</span>
           </button>
           <div class="primary-menu" id="primary-menu" data-menu>
-            <a class="is-active" href="#main">نوین نگاه</a>
+            <a class="is-active" aria-current="page" href="#main">نوین نگاه</a>
             <a href="sayeban/index.html">سایبان</a>
             <a href="branding-noori/index.html">برندینگ نوری</a>
             <a href="branding-chapi/index.html">برندینگ چاپی</a>
@@ -123,7 +125,7 @@
           </div>
           <div class="header-actions">
             <div class="header-languages" aria-label="انتخاب زبان"><a class="active" href="index.html" lang="fa" aria-current="page">FA</a><a href="en.html" lang="en">EN</a></div>
-            <a class="header-cta" href="tel:02155870756">مشاوره رایگان</a>
+            <a class="header-cta" href="tel:09124025508">مشاوره رایگان</a>
           </div>
         </nav>
       </div>
@@ -132,9 +134,9 @@
       <section class="hero section">
         <div class="container hero-grid">
           <div class="hero-content" data-reveal>
-            <span class="eyebrow">طراحی، تولید و اجرای تخصصی</span>
-            <h1>نوین نگاه، گامی نو در عرصه تبلیغات</h1>
-            <p class="hero-kicker">نوین‌نگاه؛ تولیدکننده سایبان‌های میهن</p>
+            <span class="eyebrow">پروژه شاخص سازمانی نوین نگاه</span>
+            <h1>سایبان‌های میهن؛ <em>اجرای سازمانی</em> در مقیاس گسترده</h1>
+            <p class="hero-kicker">تولید تخصصی و اجرای چندشهری برای برند میهن</p>
             <p class="hero-lead">
               تولید انواع <strong>سایبان تبلیغاتی</strong> و اجرای کامل برندینگ
               نوری و چاپی؛ از طراحی و ساخت تا نصب، همه‌چیز را یک‌جا تحویل
@@ -153,24 +155,25 @@
             </div>
           </div>
           <div class="hero-visual" data-reveal>
+            <div class="mihan-badge"><img src="assets/images/logos/mihan.png" alt="لوگوی میهن" width="2477" height="1477"/><span><small>پروژه شاخص</small><strong>سایبان‌های میهن</strong></span></div>
             <figure class="hero-card">
               <img
-                src="assets/images/novin-negah-store-design.jpg"
-                alt="اجرای حرفه‌ای سایبان و تبلیغات محیطی توسط نوین نگاه"
-                width="1707"
-                height="1280"
+                src="assets/images/novin-negah-umbrella-awning.jpg"
+                alt="نمونه اجرای سایبان تبلیغاتی میهن توسط نوین نگاه"
+                width="1024"
+                height="673"
                 fetchpriority="high"
               />
               <figcaption class="hero-caption">
-                <small>از ایده تا اجرا</small
-                ><strong>یک راهکار کامل برای دیده‌شدن برند شما</strong>
+                <small>پروژه برند میهن</small
+                ><strong>تولید، چاپ و اجرای هماهنگ در نقطه فروش</strong>
               </figcaption>
             </figure>
             <div class="floating-metric metric-a">
-              <strong>یکپارچه</strong><span>طراحی، ساخت و نصب</span>
+              <strong>۲۰+</strong><span>شهر و منطقه اجرایی</span>
             </div>
             <div class="floating-metric metric-b">
-              <strong>اختصاصی</strong><span>متناسب با هویت برند</span>
+              <strong>۲ کشور</strong><span>تجربه اجرای منطقه‌ای</span>
             </div>
           </div>
         </div>
@@ -190,6 +193,39 @@
             <article>
               <strong>یکپارچه</strong><span>طراحی، تولید و نصب</span>
             </article>
+          </div>
+        </div>
+      </section>
+      <section class="brand-proof" aria-label="برندهای همکار نوین نگاه">
+        <div class="container brand-proof-inner" data-reveal>
+          <div class="brand-proof-copy"><span>اعتماد برندهای بزرگ</span><strong>اجرای واقعی، کیفیت قابل اتکا</strong></div>
+          <div class="brand-proof-slider" data-logo-slider role="region" aria-roledescription="carousel" aria-label="لوگوهای برندهای همکار">
+            <div class="brand-proof-viewport" data-logo-viewport tabindex="0" aria-label="اسلایدر لوگوهای مشتریان">
+              <div class="brand-proof-logos" data-logo-track>
+              <div class="brand-logo-slide" role="group" aria-label="میهن، 1 از 16"><img src="assets/images/logos/mihan.png" alt="میهن" loading="lazy" decoding="async" draggable="false" width="2477" height="1477"></div>
+              <div class="brand-logo-slide" role="group" aria-label="دماوند، 2 از 16"><img src="assets/images/logos/damavand.png" alt="دماوند" loading="lazy" decoding="async" draggable="false" width="2460" height="1452"></div>
+              <div class="brand-logo-slide" role="group" aria-label="دومینو، 3 از 16"><img src="assets/images/logos/domino.png" alt="دومینو" loading="lazy" decoding="async" draggable="false" width="554" height="554"></div>
+              <div class="brand-logo-slide" role="group" aria-label="طبیعت، 4 از 16"><img src="assets/images/logos/tabiat.png" alt="طبیعت" loading="lazy" decoding="async" draggable="false" width="1492" height="821"></div>
+              <div class="brand-logo-slide" role="group" aria-label="تندیس، 5 از 16"><img src="assets/images/logos/tandis.png" alt="تندیس" loading="lazy" decoding="async" draggable="false" width="1177" height="1062"></div>
+              <div class="brand-logo-slide" role="group" aria-label="سان‌استار، 6 از 16"><img src="assets/images/logos/sunstar.png" alt="سان‌استار" loading="lazy" decoding="async" draggable="false" width="554" height="554"></div>
+              <div class="brand-logo-slide" role="group" aria-label="باراکا، 7 از 16"><img src="assets/images/logos/baraka.png" alt="باراکا" loading="lazy" decoding="async" draggable="false" width="1074" height="995"></div>
+              <div class="brand-logo-slide" role="group" aria-label="بیگ‌بر، 8 از 16"><img src="assets/images/logos/bigbear.png" alt="بیگ‌بر" loading="lazy" decoding="async" draggable="false" width="919" height="920"></div>
+              <div class="brand-logo-slide" role="group" aria-label="برفود، 9 از 16"><img src="assets/images/logos/brefood.png" alt="برفود" loading="lazy" decoding="async" draggable="false" width="260" height="170"></div>
+              <div class="brand-logo-slide" role="group" aria-label="کندری، 10 از 16"><img src="assets/images/logos/condori.png" alt="کندری" loading="lazy" decoding="async" draggable="false" width="670" height="670"></div>
+              <div class="brand-logo-slide" role="group" aria-label="دامداران، 11 از 16"><img src="assets/images/logos/damdaran.png" alt="دامداران" loading="lazy" decoding="async" draggable="false" width="1111" height="1111"></div>
+              <div class="brand-logo-slide" role="group" aria-label="فروتلند، 12 از 16"><img src="assets/images/logos/-froutland.png" alt="فروتلند" loading="lazy" decoding="async" draggable="false" width="512" height="512"></div>
+              <div class="brand-logo-slide" role="group" aria-label="هما، 13 از 16"><img src="assets/images/logos/homa.png" alt="هما" loading="lazy" decoding="async" draggable="false" width="283" height="291"></div>
+              <div class="brand-logo-slide" role="group" aria-label="لیمون، 14 از 16"><img src="assets/images/logos/limon.png" alt="لیمون" loading="lazy" decoding="async" draggable="false" width="512" height="512"></div>
+              <div class="brand-logo-slide" role="group" aria-label="پاندا، 15 از 16"><img src="assets/images/logos/panda.png" alt="پاندا" loading="lazy" decoding="async" draggable="false" width="955" height="956"></div>
+              <div class="brand-logo-slide" role="group" aria-label="سانینس، 16 از 16"><img src="assets/images/logos/sanins.png" alt="سانینس" loading="lazy" decoding="async" draggable="false" width="1055" height="1055"></div>
+              </div>
+            </div>
+            <div class="brand-proof-controls">
+              <button class="logo-slider-button" type="button" data-logo-prev aria-label="لوگوهای قبلی"><span aria-hidden="true">‹</span></button>
+              <span class="logo-slider-status" data-logo-status aria-live="off">1 از 16</span>
+              <button class="logo-slider-button" type="button" data-logo-next aria-label="لوگوهای بعدی"><span aria-hidden="true">›</span></button>
+              <button class="logo-slider-toggle" type="button" data-logo-toggle aria-label="توقف حرکت خودکار"><span aria-hidden="true">Ⅱ</span><span class="sr-only">توقف</span></button>
+            </div>
           </div>
         </div>
       </section>
@@ -271,8 +307,7 @@
               alt="نمونه اجرای سایبان متحرک نوین نگاه"
               width="1024"
               height="682"
-              loading="lazy"
-            />
+              loading="lazy" decoding="async"/>
           </div>
           <div class="split-copy" data-reveal>
             <span class="eyebrow">درباره نوین نگاه</span>
@@ -328,8 +363,7 @@
                 alt="اجرای نمای تبلیغاتی فروشگاه"
                 width="1707"
                 height="1280"
-                loading="lazy"
-              /><span class="project-info"
+                loading="lazy" decoding="async"/><span class="project-info"
                 ><small>برندینگ محیطی</small
                 ><strong>اجرای نمای تبلیغاتی فروشگاه</strong></span
               ></a
@@ -339,8 +373,7 @@
                 alt="سایبان کالسکه‌ای فروشگاهی"
                 width="1156"
                 height="651"
-                loading="lazy"
-              /><span class="project-info"
+                loading="lazy" decoding="async"/><span class="project-info"
                 ><small>سایبان فروشگاهی</small
                 ><strong>سازه کالسکه‌ای اختصاصی</strong></span
               ></a
@@ -350,13 +383,28 @@
                 alt="سایبان متحرک اختصاصی"
                 width="1024"
                 height="682"
-                loading="lazy"
-              /><span class="project-info"
+                loading="lazy" decoding="async"/><span class="project-info"
                 ><small>سایبان متحرک</small
                 ><strong>طراحی و نصب سازه اختصاصی</strong></span
               ></a
             >
           </div>
+        </div>
+      </section>
+      <section class="section execution-network" aria-labelledby="network-title">
+        <div class="container network-shell">
+          <div class="network-intro" data-reveal>
+            <span class="eyebrow">شبکه اجرای نوین نگاه</span>
+            <h2 id="network-title">از تهران تا تاشکند؛ یک استاندارد اجرایی</h2>
+            <p>نوین نگاه برای شرکت‌ها و برندها در بیش از ۲۰ شهر و منطقه ایران و در دو کشور عراق و ازبکستان پروژه اجرا کرده است.</p>
+            <div class="network-numbers"><article><strong>۲۰+</strong><span>شهر و منطقه</span></article><article><strong>۲</strong><span>کشور مقصد پروژه</span></article><article><strong>۳۶۰°</strong><span>طراحی تا نصب</span></article></div>
+          </div>
+          <div class="network-countries" data-reveal>
+            <article class="country-main"><b>IR</b><div><strong>ایران</strong><span>شبکه اجرای سراسری</span></div></article>
+            <article><b>IQ</b><div><strong>عراق</strong><span>پروژه برون‌مرزی</span></div></article>
+            <article><b>UZ</b><div><strong>ازبکستان</strong><span>پروژه برون‌مرزی</span></div></article>
+          </div>
+          <div class="network-cities" data-reveal><span>تهران</span><span>کرج</span><span>قزوین</span><span>دماوند</span><span>مازندران</span><span>رشت</span><span>گیلان</span><span>زنجان</span><span>تبریز</span><span>اردبیل</span><span>اصفهان</span><span>شیراز</span><span>اهواز</span><span>بندرعباس</span><span>اراک</span><span>قم</span><span>کاشان</span><span>کرمان</span><span>همدان</span><span>کرمانشاه</span></div>
         </div>
       </section>
       <section class="section comparison">
@@ -459,8 +507,7 @@
               alt="حضور نوین نگاه در نمایشگاه صنعت پخش ایران مال"
               width="1280"
               height="959"
-              loading="lazy"
-            />
+              loading="lazy" decoding="async"/>
             <figcaption>
               اجرای غرفه شرکت آب‌های معدنی دماوند در نمایشگاه صنعت پخش ایران‌مال
             </figcaption>
@@ -539,8 +586,8 @@
               </p>
             </div>
             <div class="cta-actions">
-              <a class="button button-light" href="tel:02155870756"
-                >02155870756</a
+              <a class="button button-light" href="tel:09124025508"
+                >09124025508</a
               ><a class="button button-ghost" href="mailto:novin@novin-negah.ir"
                 >ارسال ایمیل</a
               >
